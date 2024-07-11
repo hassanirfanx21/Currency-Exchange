@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="currencyExchangeCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Currency Exchange</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="plateform">
+            <p id="heading" class="bebas-neue-regular">Currency Exchange</p>
+            <div class="submission">
+                <input type="text" id="enter" placeholder="Enter Amount">
+                <button id="myButton">SUBMIT</button>
+            </div>
+            <div class="countryDiv">
+                <div id="left">
+                    <img src="https://flagsapi.com/PK/flat/64.png
+                " alt="pic" class="flags" id="flagLeft">
+                    <select name="" id="from" class="selections">
+                        <option class="optionFlag">PK</option>
+                    </select>
+                </div>
+                <div id="right">
+                    <img src="https://flagsapi.com/IN/flat/64.png
+                " alt="pic" class="flags" id="flagRight">
+                    <select name="" id="to" class="selections">
+                        <option value="" class="optionFlag">IN</option>
+                    </select>
+                </div>
+            </div>
+            <p id="display" class="bebas-neue-regular">Display Exchange Amount:</p>
+            <p id="amount">COVERTED AMOUNT</p>
+        </div>
+    </div>
+    <script type="module" src="currency.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+    "name": "currency-project",
+    "version": "1.0.0",
+    "main": "currency.js",
+    "type": "module",
+    "scripts": {
+      "start": "node currency.js",
+      "currencyUpdated": "node currencyUpdated.js"
+    },
+    "dependencies": {}
+  }
